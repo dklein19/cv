@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: #2c88e4
+}
+
+.cool-cloud {
+    height: 150px;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.sup-cloud {
+    height: 175px;
+    position: absolute;
+    left: 280px;
+    bottom: 350px;
+    transform: rotateY(180deg);
+}
+
+.top {
+    text-align: center;
+    background-color: #2c88e4;
+    color: #0f0701;
+    padding: 180px 300px 30px 300px;
+    font-family: serif;
+    height: 605px;
+    border-bottom-style: solid;
+    border-width: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.middle {
+    text-align: center;
+    background-color:#ffffff;
+    color:rgb(0, 0, 0);
+    padding: 50px 0 0 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bottom {
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px;
+    font-size: 20px;
+    border-width: 10px;
+    border-top-style: solid;
+}
+
+.hat {
+    
+    height: 100px;
+}
+
+.flag {
+    
+    height: 100px;
+}
+
+.contact {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.column {
+    column-span: 10px;
+    column-count: 2;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(145, 145, 145);
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+a:active {
+  color: yellow;
+}
+
+hr {
+    border-top: 8px solid #000000;
+    width: 10%;
+}
+
+.button {
+    background-color: #ffffff;
+    border: solid;
+    border-radius: 100px;
+    border-width: 1px;
+    border-color: #000000;
+    font-family:'Noto Sans JP', sans-serif;
+    padding: 1px 1px;
+}
